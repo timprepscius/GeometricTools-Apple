@@ -1,3 +1,6 @@
 build/
 WildMagic5/SDK/
 .DS_Store
+
+project.xcworkspace/
+xcuserdata/

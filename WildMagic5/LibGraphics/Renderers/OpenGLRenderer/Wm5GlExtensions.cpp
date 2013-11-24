@@ -7,6 +7,7 @@
 // File Version: 5.0.1 (2010/08/22)
 
 #include "Wm5GlExtensions.h"
+#include "Wm5GlUtility.h"
 
 #if defined(_MSC_VER)
 // Disable the warning about "conditional expression is constant".  Without

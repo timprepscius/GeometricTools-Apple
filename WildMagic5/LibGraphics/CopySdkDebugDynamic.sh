@@ -25,6 +25,14 @@ foreach oheader (${OHEADERS})
 end
 cd ../..
 
+cd Renderers/CocoaRenderer
+set OCURDIR = `pwd`
+set OHEADERS = `ls *.h`
+foreach oheader (${OHEADERS})
+    cp -fp "${OCURDIR}"/$oheader ../../../SDK/Include
+end
+cd ../..
+
 cd Renderers/GlutRenderer
 set ACURDIR = `pwd`
 set AHEADERS = `ls *.h`

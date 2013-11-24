@@ -336,7 +336,7 @@
 		3C64CF131256BD1900F4B0B0 /* Wm5CameraWorldPositionConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FC4810FCF43400C42DBB /* Wm5CameraWorldPositionConstant.h */; };
 		3C64CF141256BD1900F4B0B0 /* Wm5Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FADA10FCF3DF00C42DBB /* Wm5Renderer.h */; };
 		3C64CF151256BD1900F4B0B0 /* Wm5BlendTransformController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C30037311120595004EF06C /* Wm5BlendTransformController.h */; };
-		3C64CF161256BD1900F4B0B0 /* Wm5GlExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FAF710FCF40200C42DBB /* Wm5GlExtensions.h */; };
+		3C64CF161256BD1900F4B0B0 /* Wm5GlExtensionsStandard.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FAF710FCF40200C42DBB /* Wm5GlExtensionsStandard.h */; };
 		3C64CF171256BD1900F4B0B0 /* Wm5OpenGLTextureCube.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FB1110FCF40200C42DBB /* Wm5OpenGLTextureCube.h */; };
 		3C64CF281256BE4600F4B0B0 /* libWm5Cored.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C64CF261256BE4600F4B0B0 /* libWm5Cored.a */; };
 		3C64CF291256BE4600F4B0B0 /* libWm5Mathematicsd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C64CF271256BE4600F4B0B0 /* libWm5Mathematicsd.a */; };
@@ -661,14 +661,10 @@
 		3C64D18C1256C7BB00F4B0B0 /* Wm5CameraWorldPositionConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FC4810FCF43400C42DBB /* Wm5CameraWorldPositionConstant.h */; };
 		3C64D18D1256C7BB00F4B0B0 /* Wm5Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FADA10FCF3DF00C42DBB /* Wm5Renderer.h */; };
 		3C64D18E1256C7BB00F4B0B0 /* Wm5BlendTransformController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C30037311120595004EF06C /* Wm5BlendTransformController.h */; };
-		3C64D18F1256C7BB00F4B0B0 /* Wm5GlExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FAF710FCF40200C42DBB /* Wm5GlExtensions.h */; };
+		3C64D18F1256C7BB00F4B0B0 /* Wm5GlExtensionsStandard.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FAF710FCF40200C42DBB /* Wm5GlExtensionsStandard.h */; };
 		3C64D1901256C7BB00F4B0B0 /* Wm5OpenGLTextureCube.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FB1110FCF40200C42DBB /* Wm5OpenGLTextureCube.h */; };
 		3C64D19D1256C7DA00F4B0B0 /* libWm5Core.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C64D19B1256C7DA00F4B0B0 /* libWm5Core.dylib */; };
 		3C64D19E1256C7DA00F4B0B0 /* libWm5Mathematics.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C64D19C1256C7DA00F4B0B0 /* libWm5Mathematics.dylib */; };
-		3CAC8D5013DBAC6000C8E9E7 /* Wm5GlutRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC8D4D13DBAC6000C8E9E7 /* Wm5GlutRenderer.cpp */; };
-		3CAC8D5113DBAC6000C8E9E7 /* Wm5GlutRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC8D4D13DBAC6000C8E9E7 /* Wm5GlutRenderer.cpp */; };
-		3CAC8D5213DBAC6000C8E9E7 /* Wm5GlutRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC8D4D13DBAC6000C8E9E7 /* Wm5GlutRenderer.cpp */; };
-		3CAC8D5313DBAC6000C8E9E7 /* Wm5GlutRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC8D4D13DBAC6000C8E9E7 /* Wm5GlutRenderer.cpp */; };
 		3CAC8D5413DBAC6000C8E9E7 /* Wm5GlutRendererData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CAC8D4E13DBAC6000C8E9E7 /* Wm5GlutRendererData.h */; };
 		3CAC8D5513DBAC6000C8E9E7 /* Wm5GlutRendererData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CAC8D4E13DBAC6000C8E9E7 /* Wm5GlutRendererData.h */; };
 		3CAC8D5613DBAC6000C8E9E7 /* Wm5GlutRendererData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CAC8D4E13DBAC6000C8E9E7 /* Wm5GlutRendererData.h */; };
@@ -677,11 +673,9 @@
 		3CAC8D5913DBAC6000C8E9E7 /* Wm5GlutRendererInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CAC8D4F13DBAC6000C8E9E7 /* Wm5GlutRendererInput.h */; };
 		3CAC8D5A13DBAC6000C8E9E7 /* Wm5GlutRendererInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CAC8D4F13DBAC6000C8E9E7 /* Wm5GlutRendererInput.h */; };
 		3CAC8D5B13DBAC6000C8E9E7 /* Wm5GlutRendererInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CAC8D4F13DBAC6000C8E9E7 /* Wm5GlutRendererInput.h */; };
-		3CAC8D5D13DBAD5100C8E9E7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAC8D5C13DBAD5100C8E9E7 /* GLUT.framework */; };
 		3CAC8D5E13DBAD5100C8E9E7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAC8D5C13DBAD5100C8E9E7 /* GLUT.framework */; };
 		3CAC8D5F13DBAD5100C8E9E7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAC8D5C13DBAD5100C8E9E7 /* GLUT.framework */; };
 		3CAC8D6013DBAD5100C8E9E7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAC8D5C13DBAD5100C8E9E7 /* GLUT.framework */; };
-		3CAC8D6213DBAD6500C8E9E7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAC8D6113DBAD6500C8E9E7 /* OpenGL.framework */; };
 		3CAC8D6313DBAD6500C8E9E7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAC8D6113DBAD6500C8E9E7 /* OpenGL.framework */; };
 		3CAC8D6413DBAD6500C8E9E7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAC8D6113DBAD6500C8E9E7 /* OpenGL.framework */; };
 		3CAC8D6513DBAD6500C8E9E7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAC8D6113DBAD6500C8E9E7 /* OpenGL.framework */; };
@@ -928,7 +922,7 @@
 		3CC4FAE110FCF3DF00C42DBB /* Wm5Renderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FADA10FCF3DF00C42DBB /* Wm5Renderer.h */; };
 		3CC4FAE210FCF3DF00C42DBB /* Wm5Renderers.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FADC10FCF3DF00C42DBB /* Wm5Renderers.h */; };
 		3CC4FB1910FCF40200C42DBB /* Wm5GlExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4FAF610FCF40200C42DBB /* Wm5GlExtensions.cpp */; };
-		3CC4FB1A10FCF40200C42DBB /* Wm5GlExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FAF710FCF40200C42DBB /* Wm5GlExtensions.h */; };
+		3CC4FB1A10FCF40200C42DBB /* Wm5GlExtensionsStandard.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FAF710FCF40200C42DBB /* Wm5GlExtensionsStandard.h */; };
 		3CC4FB1B10FCF40200C42DBB /* Wm5GlPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4FAF810FCF40200C42DBB /* Wm5GlPlugin.cpp */; };
 		3CC4FB1C10FCF40200C42DBB /* Wm5GlPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FAF910FCF40200C42DBB /* Wm5GlPlugin.h */; };
 		3CC4FB1D10FCF40200C42DBB /* Wm5GlUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FAFA10FCF40200C42DBB /* Wm5GlUtility.h */; };
@@ -963,7 +957,7 @@
 		3CC4FB3A10FCF40200C42DBB /* Wm5OpenGLVertexShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4FB1710FCF40200C42DBB /* Wm5OpenGLVertexShader.cpp */; };
 		3CC4FB3B10FCF40200C42DBB /* Wm5OpenGLVertexShader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FB1810FCF40200C42DBB /* Wm5OpenGLVertexShader.h */; };
 		3CC4FB3C10FCF40200C42DBB /* Wm5GlExtensions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4FAF610FCF40200C42DBB /* Wm5GlExtensions.cpp */; };
-		3CC4FB3D10FCF40200C42DBB /* Wm5GlExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FAF710FCF40200C42DBB /* Wm5GlExtensions.h */; };
+		3CC4FB3D10FCF40200C42DBB /* Wm5GlExtensionsStandard.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FAF710FCF40200C42DBB /* Wm5GlExtensionsStandard.h */; };
 		3CC4FB3E10FCF40200C42DBB /* Wm5GlPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4FAF810FCF40200C42DBB /* Wm5GlPlugin.cpp */; };
 		3CC4FB3F10FCF40200C42DBB /* Wm5GlPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FAF910FCF40200C42DBB /* Wm5GlPlugin.h */; };
 		3CC4FB4010FCF40200C42DBB /* Wm5GlUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FAFA10FCF40200C42DBB /* Wm5GlUtility.h */; };
@@ -1323,6 +1317,30 @@
 		3CC4FD7710FCF47000C42DBB /* Wm5GraphicsLIB.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FD6F10FCF47000C42DBB /* Wm5GraphicsLIB.h */; };
 		3CC4FD7810FCF47000C42DBB /* Wm5GraphicsPCH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4FD7010FCF47000C42DBB /* Wm5GraphicsPCH.cpp */; };
 		3CC4FD7910FCF47000C42DBB /* Wm5GraphicsPCH.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CC4FD7110FCF47000C42DBB /* Wm5GraphicsPCH.h */; };
+		F6184DF8183E5993003BF970 /* Wm5CocoaRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6184DF3183E5993003BF970 /* Wm5CocoaRenderer.cpp */; };
+		F6184DF9183E5993003BF970 /* Wm5CocoaRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6184DF3183E5993003BF970 /* Wm5CocoaRenderer.cpp */; };
+		F6184DFA183E5993003BF970 /* Wm5CocoaRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6184DF3183E5993003BF970 /* Wm5CocoaRenderer.cpp */; };
+		F6184DFB183E5993003BF970 /* Wm5CocoaRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6184DF3183E5993003BF970 /* Wm5CocoaRenderer.cpp */; };
+		F6184DFC183E5993003BF970 /* Wm5CocoaRendererData.h in Headers */ = {isa = PBXBuildFile; fileRef = F6184DF4183E5993003BF970 /* Wm5CocoaRendererData.h */; };
+		F6184DFD183E5993003BF970 /* Wm5CocoaRendererData.h in Headers */ = {isa = PBXBuildFile; fileRef = F6184DF4183E5993003BF970 /* Wm5CocoaRendererData.h */; };
+		F6184DFE183E5993003BF970 /* Wm5CocoaRendererData.h in Headers */ = {isa = PBXBuildFile; fileRef = F6184DF4183E5993003BF970 /* Wm5CocoaRendererData.h */; };
+		F6184DFF183E5993003BF970 /* Wm5CocoaRendererData.h in Headers */ = {isa = PBXBuildFile; fileRef = F6184DF4183E5993003BF970 /* Wm5CocoaRendererData.h */; };
+		F6184E00183E5993003BF970 /* Wm5CocoaRendererExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F6184DF5183E5993003BF970 /* Wm5CocoaRendererExt.h */; };
+		F6184E01183E5993003BF970 /* Wm5CocoaRendererExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F6184DF5183E5993003BF970 /* Wm5CocoaRendererExt.h */; };
+		F6184E02183E5993003BF970 /* Wm5CocoaRendererExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F6184DF5183E5993003BF970 /* Wm5CocoaRendererExt.h */; };
+		F6184E03183E5993003BF970 /* Wm5CocoaRendererExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F6184DF5183E5993003BF970 /* Wm5CocoaRendererExt.h */; };
+		F6184E04183E5993003BF970 /* Wm5CocoaRendererExt.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6184DF6183E5993003BF970 /* Wm5CocoaRendererExt.mm */; };
+		F6184E05183E5993003BF970 /* Wm5CocoaRendererExt.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6184DF6183E5993003BF970 /* Wm5CocoaRendererExt.mm */; };
+		F6184E06183E5993003BF970 /* Wm5CocoaRendererExt.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6184DF6183E5993003BF970 /* Wm5CocoaRendererExt.mm */; };
+		F6184E07183E5993003BF970 /* Wm5CocoaRendererExt.mm in Sources */ = {isa = PBXBuildFile; fileRef = F6184DF6183E5993003BF970 /* Wm5CocoaRendererExt.mm */; };
+		F6184E08183E5993003BF970 /* Wm5CocoaRendererInput.h in Headers */ = {isa = PBXBuildFile; fileRef = F6184DF7183E5993003BF970 /* Wm5CocoaRendererInput.h */; };
+		F6184E09183E5993003BF970 /* Wm5CocoaRendererInput.h in Headers */ = {isa = PBXBuildFile; fileRef = F6184DF7183E5993003BF970 /* Wm5CocoaRendererInput.h */; };
+		F6184E0A183E5993003BF970 /* Wm5CocoaRendererInput.h in Headers */ = {isa = PBXBuildFile; fileRef = F6184DF7183E5993003BF970 /* Wm5CocoaRendererInput.h */; };
+		F6184E0B183E5993003BF970 /* Wm5CocoaRendererInput.h in Headers */ = {isa = PBXBuildFile; fileRef = F6184DF7183E5993003BF970 /* Wm5CocoaRendererInput.h */; };
+		F6184E0D183E5B2A003BF970 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6184E0C183E5B2A003BF970 /* GLUT.framework */; };
+		F6184E0F183E5B2F003BF970 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6184E0E183E5B2F003BF970 /* OpenGL.framework */; };
+		F6184E11183E5B38003BF970 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6184E10183E5B38003BF970 /* GLKit.framework */; };
+		F6FEAAA31842AA8300D62DF3 /* Wm5GlExtensionsCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FEAAA21842AA8300D62DF3 /* Wm5GlExtensionsCocoa.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1493,7 +1511,7 @@
 		3CC4FADB10FCF3DF00C42DBB /* Wm5Renderer.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Wm5Renderer.inl; path = Renderers/Wm5Renderer.inl; sourceTree = "<group>"; };
 		3CC4FADC10FCF3DF00C42DBB /* Wm5Renderers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wm5Renderers.h; path = Renderers/Wm5Renderers.h; sourceTree = "<group>"; };
 		3CC4FAF610FCF40200C42DBB /* Wm5GlExtensions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Wm5GlExtensions.cpp; path = Renderers/OpenGLRenderer/Wm5GlExtensions.cpp; sourceTree = "<group>"; };
-		3CC4FAF710FCF40200C42DBB /* Wm5GlExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wm5GlExtensions.h; path = Renderers/OpenGLRenderer/Wm5GlExtensions.h; sourceTree = "<group>"; };
+		3CC4FAF710FCF40200C42DBB /* Wm5GlExtensionsStandard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wm5GlExtensionsStandard.h; path = Renderers/OpenGLRenderer/Wm5GlExtensionsStandard.h; sourceTree = "<group>"; };
 		3CC4FAF810FCF40200C42DBB /* Wm5GlPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Wm5GlPlugin.cpp; path = Renderers/OpenGLRenderer/Wm5GlPlugin.cpp; sourceTree = "<group>"; };
 		3CC4FAF910FCF40200C42DBB /* Wm5GlPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wm5GlPlugin.h; path = Renderers/OpenGLRenderer/Wm5GlPlugin.h; sourceTree = "<group>"; };
 		3CC4FAFA10FCF40200C42DBB /* Wm5GlUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wm5GlUtility.h; path = Renderers/OpenGLRenderer/Wm5GlUtility.h; sourceTree = "<group>"; };
@@ -1728,6 +1746,16 @@
 		3CC4FD7110FCF47000C42DBB /* Wm5GraphicsPCH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wm5GraphicsPCH.h; sourceTree = "<group>"; };
 		74D6E86F07F34B2200267169 /* libWm5GlutGraphicsd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWm5GlutGraphicsd.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D6E87507F34B7400267169 /* libWm5GlutGraphics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWm5GlutGraphics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6184DF3183E5993003BF970 /* Wm5CocoaRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Wm5CocoaRenderer.cpp; path = Renderers/CocoaRenderer/Wm5CocoaRenderer.cpp; sourceTree = "<group>"; };
+		F6184DF4183E5993003BF970 /* Wm5CocoaRendererData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wm5CocoaRendererData.h; path = Renderers/CocoaRenderer/Wm5CocoaRendererData.h; sourceTree = "<group>"; };
+		F6184DF5183E5993003BF970 /* Wm5CocoaRendererExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wm5CocoaRendererExt.h; path = Renderers/CocoaRenderer/Wm5CocoaRendererExt.h; sourceTree = "<group>"; };
+		F6184DF6183E5993003BF970 /* Wm5CocoaRendererExt.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Wm5CocoaRendererExt.mm; path = Renderers/CocoaRenderer/Wm5CocoaRendererExt.mm; sourceTree = "<group>"; };
+		F6184DF7183E5993003BF970 /* Wm5CocoaRendererInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wm5CocoaRendererInput.h; path = Renderers/CocoaRenderer/Wm5CocoaRendererInput.h; sourceTree = "<group>"; };
+		F6184E0C183E5B2A003BF970 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		F6184E0E183E5B2F003BF970 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F6184E10183E5B38003BF970 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F6184E15183E610C003BF970 /* Wm5GlExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wm5GlExtensions.h; sourceTree = "<group>"; };
+		F6FEAAA21842AA8300D62DF3 /* Wm5GlExtensionsCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wm5GlExtensionsCocoa.h; path = Renderers/CocoaRenderer/Wm5GlExtensionsCocoa.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1757,8 +1785,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CAC8D5D13DBAD5100C8E9E7 /* GLUT.framework in Frameworks */,
-				3CAC8D6213DBAD6500C8E9E7 /* OpenGL.framework in Frameworks */,
+				F6184E11183E5B38003BF970 /* GLKit.framework in Frameworks */,
+				F6184E0F183E5B2F003BF970 /* OpenGL.framework in Frameworks */,
+				F6184E0D183E5B2A003BF970 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1804,6 +1833,9 @@
 		3C6FBA26083E49060068AA05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F6184E10183E5B38003BF970 /* GLKit.framework */,
+				F6184E0E183E5B2F003BF970 /* OpenGL.framework */,
+				F6184E0C183E5B2A003BF970 /* GLUT.framework */,
 				3CAC8D6113DBAD6500C8E9E7 /* OpenGL.framework */,
 				3CAC8D5C13DBAD5100C8E9E7 /* GLUT.framework */,
 			);
@@ -2060,6 +2092,7 @@
 		3CC4F92E10FCF2F700C42DBB /* Renderers */ = {
 			isa = PBXGroup;
 			children = (
+				F6184DF2183E597C003BF970 /* CocoaRenderer */,
 				3CAC8D4B13DBABF700C8E9E7 /* GlutRenderer */,
 				3CC4F93410FCF30A00C42DBB /* OpenGLRenderer */,
 				3CC4FAD910FCF3DF00C42DBB /* Wm5Renderer.cpp */,
@@ -2074,7 +2107,8 @@
 			isa = PBXGroup;
 			children = (
 				3CC4FAF610FCF40200C42DBB /* Wm5GlExtensions.cpp */,
-				3CC4FAF710FCF40200C42DBB /* Wm5GlExtensions.h */,
+				F6184E15183E610C003BF970 /* Wm5GlExtensions.h */,
+				3CC4FAF710FCF40200C42DBB /* Wm5GlExtensionsStandard.h */,
 				3CC4FAF810FCF40200C42DBB /* Wm5GlPlugin.cpp */,
 				3CC4FAF910FCF40200C42DBB /* Wm5GlPlugin.h */,
 				3CC4FAFA10FCF40200C42DBB /* Wm5GlUtility.h */,
@@ -2358,6 +2392,19 @@
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
 		};
+		F6184DF2183E597C003BF970 /* CocoaRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				F6FEAAA21842AA8300D62DF3 /* Wm5GlExtensionsCocoa.h */,
+				F6184DF3183E5993003BF970 /* Wm5CocoaRenderer.cpp */,
+				F6184DF4183E5993003BF970 /* Wm5CocoaRendererData.h */,
+				F6184DF5183E5993003BF970 /* Wm5CocoaRendererExt.h */,
+				F6184DF6183E5993003BF970 /* Wm5CocoaRendererExt.mm */,
+				F6184DF7183E5993003BF970 /* Wm5CocoaRendererInput.h */,
+			);
+			name = CocoaRenderer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2417,6 +2464,7 @@
 				3C64CEA31256BD1900F4B0B0 /* Wm5VertexColor4TextureEffect.h in Headers */,
 				3C64CEA41256BD1900F4B0B0 /* Wm5PixelShader.h in Headers */,
 				3C64CEA51256BD1900F4B0B0 /* Wm5ScreenTarget.h in Headers */,
+				F6184DFE183E5993003BF970 /* Wm5CocoaRendererData.h in Headers */,
 				3C64CEA61256BD1900F4B0B0 /* Wm5BspNode.h in Headers */,
 				3C64CEA71256BD1900F4B0B0 /* Wm5ParticleController.h in Headers */,
 				3C64CEA81256BD1900F4B0B0 /* Wm5MorphController.h in Headers */,
@@ -2432,6 +2480,7 @@
 				3C64CEB21256BD1900F4B0B0 /* Wm5KeyframeController.h in Headers */,
 				3C64CEB31256BD1900F4B0B0 /* Wm5WireState.h in Headers */,
 				3C64CEB41256BD1900F4B0B0 /* Wm5OpenGLVertexBuffer.h in Headers */,
+				F6184E02183E5993003BF970 /* Wm5CocoaRendererExt.h in Headers */,
 				3C64CEB51256BD1900F4B0B0 /* Wm5BSplineSurfacePatch.h in Headers */,
 				3C64CEB61256BD1900F4B0B0 /* Wm5MaterialEffect.h in Headers */,
 				3C64CEB71256BD1900F4B0B0 /* Wm5VWMatrixConstant.h in Headers */,
@@ -2461,6 +2510,7 @@
 				3C64CECF1256BD1900F4B0B0 /* Wm5SkinController.h in Headers */,
 				3C64CED01256BD1900F4B0B0 /* Wm5RectangleSurface.h in Headers */,
 				3C64CED11256BD1900F4B0B0 /* Wm5OpenGLShader.h in Headers */,
+				F6184E0A183E5993003BF970 /* Wm5CocoaRendererInput.h in Headers */,
 				3C64CED21256BD1900F4B0B0 /* Wm5Color.h in Headers */,
 				3C64CED31256BD1900F4B0B0 /* Wm5PMatrixConstant.h in Headers */,
 				3C64CED41256BD1900F4B0B0 /* Wm5VisualEffectInstance.h in Headers */,
@@ -2527,7 +2577,7 @@
 				3C64CF131256BD1900F4B0B0 /* Wm5CameraWorldPositionConstant.h in Headers */,
 				3C64CF141256BD1900F4B0B0 /* Wm5Renderer.h in Headers */,
 				3C64CF151256BD1900F4B0B0 /* Wm5BlendTransformController.h in Headers */,
-				3C64CF161256BD1900F4B0B0 /* Wm5GlExtensions.h in Headers */,
+				3C64CF161256BD1900F4B0B0 /* Wm5GlExtensionsStandard.h in Headers */,
 				3C64CF171256BD1900F4B0B0 /* Wm5OpenGLTextureCube.h in Headers */,
 				3CAC8D5613DBAC6000C8E9E7 /* Wm5GlutRendererData.h in Headers */,
 				3CAC8D5A13DBAC6000C8E9E7 /* Wm5GlutRendererInput.h in Headers */,
@@ -2590,6 +2640,7 @@
 				3C64D11C1256C7BB00F4B0B0 /* Wm5VertexColor4TextureEffect.h in Headers */,
 				3C64D11D1256C7BB00F4B0B0 /* Wm5PixelShader.h in Headers */,
 				3C64D11E1256C7BB00F4B0B0 /* Wm5ScreenTarget.h in Headers */,
+				F6184DFF183E5993003BF970 /* Wm5CocoaRendererData.h in Headers */,
 				3C64D11F1256C7BB00F4B0B0 /* Wm5BspNode.h in Headers */,
 				3C64D1201256C7BB00F4B0B0 /* Wm5ParticleController.h in Headers */,
 				3C64D1211256C7BB00F4B0B0 /* Wm5MorphController.h in Headers */,
@@ -2605,6 +2656,7 @@
 				3C64D12B1256C7BB00F4B0B0 /* Wm5KeyframeController.h in Headers */,
 				3C64D12C1256C7BB00F4B0B0 /* Wm5WireState.h in Headers */,
 				3C64D12D1256C7BB00F4B0B0 /* Wm5OpenGLVertexBuffer.h in Headers */,
+				F6184E03183E5993003BF970 /* Wm5CocoaRendererExt.h in Headers */,
 				3C64D12E1256C7BB00F4B0B0 /* Wm5BSplineSurfacePatch.h in Headers */,
 				3C64D12F1256C7BB00F4B0B0 /* Wm5MaterialEffect.h in Headers */,
 				3C64D1301256C7BB00F4B0B0 /* Wm5VWMatrixConstant.h in Headers */,
@@ -2634,6 +2686,7 @@
 				3C64D1481256C7BB00F4B0B0 /* Wm5SkinController.h in Headers */,
 				3C64D1491256C7BB00F4B0B0 /* Wm5RectangleSurface.h in Headers */,
 				3C64D14A1256C7BB00F4B0B0 /* Wm5OpenGLShader.h in Headers */,
+				F6184E0B183E5993003BF970 /* Wm5CocoaRendererInput.h in Headers */,
 				3C64D14B1256C7BB00F4B0B0 /* Wm5Color.h in Headers */,
 				3C64D14C1256C7BB00F4B0B0 /* Wm5PMatrixConstant.h in Headers */,
 				3C64D14D1256C7BB00F4B0B0 /* Wm5VisualEffectInstance.h in Headers */,
@@ -2700,7 +2753,7 @@
 				3C64D18C1256C7BB00F4B0B0 /* Wm5CameraWorldPositionConstant.h in Headers */,
 				3C64D18D1256C7BB00F4B0B0 /* Wm5Renderer.h in Headers */,
 				3C64D18E1256C7BB00F4B0B0 /* Wm5BlendTransformController.h in Headers */,
-				3C64D18F1256C7BB00F4B0B0 /* Wm5GlExtensions.h in Headers */,
+				3C64D18F1256C7BB00F4B0B0 /* Wm5GlExtensionsStandard.h in Headers */,
 				3C64D1901256C7BB00F4B0B0 /* Wm5OpenGLTextureCube.h in Headers */,
 				3CAC8D5713DBAC6000C8E9E7 /* Wm5GlutRendererData.h in Headers */,
 				3CAC8D5B13DBAC6000C8E9E7 /* Wm5GlutRendererInput.h in Headers */,
@@ -2762,7 +2815,9 @@
 				3CC4FA9C10FCF3D000C42DBB /* Wm5MaterialEffect.h in Headers */,
 				3CC4FA9E10FCF3D000C42DBB /* Wm5MaterialTextureEffect.h in Headers */,
 				3CC4FAA010FCF3D000C42DBB /* Wm5Texture1DEffect.h in Headers */,
+				F6FEAAA31842AA8300D62DF3 /* Wm5GlExtensionsCocoa.h in Headers */,
 				3CC4FAA210FCF3D000C42DBB /* Wm5Texture2AddEffect.h in Headers */,
+				F6184DFC183E5993003BF970 /* Wm5CocoaRendererData.h in Headers */,
 				3CC4FAA410FCF3D000C42DBB /* Wm5Texture2ColorBlendEffect.h in Headers */,
 				3CC4FAA610FCF3D000C42DBB /* Wm5Texture2DEffect.h in Headers */,
 				3CC4FAA810FCF3D000C42DBB /* Wm5Texture2MulEffect.h in Headers */,
@@ -2772,12 +2827,13 @@
 				3CC4FAB010FCF3D000C42DBB /* Wm5VertexColor4TextureEffect.h in Headers */,
 				3CC4FADE10FCF3DF00C42DBB /* Wm5Renderer.h in Headers */,
 				3CC4FADF10FCF3DF00C42DBB /* Wm5Renderers.h in Headers */,
-				3CC4FB1A10FCF40200C42DBB /* Wm5GlExtensions.h in Headers */,
+				3CC4FB1A10FCF40200C42DBB /* Wm5GlExtensionsStandard.h in Headers */,
 				3CC4FB1C10FCF40200C42DBB /* Wm5GlPlugin.h in Headers */,
 				3CC4FB1D10FCF40200C42DBB /* Wm5GlUtility.h in Headers */,
 				3CC4FB1E10FCF40200C42DBB /* Wm5OpenGLBitmapFont.h in Headers */,
 				3CC4FB2010FCF40200C42DBB /* Wm5OpenGLIndexBuffer.h in Headers */,
 				3CC4FB2210FCF40200C42DBB /* Wm5OpenGLMapping.h in Headers */,
+				F6184E00183E5993003BF970 /* Wm5CocoaRendererExt.h in Headers */,
 				3CC4FB2410FCF40200C42DBB /* Wm5OpenGLPixelShader.h in Headers */,
 				3CC4FB2710FCF40200C42DBB /* Wm5OpenGLRendererData.h in Headers */,
 				3CC4FB2810FCF40200C42DBB /* Wm5OpenGLRendererLIB.h in Headers */,
@@ -2807,6 +2863,7 @@
 				3CC4FBF010FCF42400C42DBB /* Wm5Light.h in Headers */,
 				3CC4FBF210FCF42400C42DBB /* Wm5LightNode.h in Headers */,
 				3CC4FBF410FCF42400C42DBB /* Wm5Material.h in Headers */,
+				F6184E08183E5993003BF970 /* Wm5CocoaRendererInput.h in Headers */,
 				3CC4FBF610FCF42400C42DBB /* Wm5Node.h in Headers */,
 				3CC4FBF810FCF42400C42DBB /* Wm5Particles.h in Headers */,
 				3CC4FBFA10FCF42400C42DBB /* Wm5Picker.h in Headers */,
@@ -2936,6 +2993,7 @@
 				3CC4FAC410FCF3D000C42DBB /* Wm5MaterialTextureEffect.h in Headers */,
 				3CC4FAC610FCF3D000C42DBB /* Wm5Texture1DEffect.h in Headers */,
 				3CC4FAC810FCF3D000C42DBB /* Wm5Texture2AddEffect.h in Headers */,
+				F6184DFD183E5993003BF970 /* Wm5CocoaRendererData.h in Headers */,
 				3CC4FACA10FCF3D000C42DBB /* Wm5Texture2ColorBlendEffect.h in Headers */,
 				3CC4FACC10FCF3D000C42DBB /* Wm5Texture2DEffect.h in Headers */,
 				3CC4FACE10FCF3D000C42DBB /* Wm5Texture2MulEffect.h in Headers */,
@@ -2945,12 +3003,13 @@
 				3CC4FAD610FCF3D000C42DBB /* Wm5VertexColor4TextureEffect.h in Headers */,
 				3CC4FAE110FCF3DF00C42DBB /* Wm5Renderer.h in Headers */,
 				3CC4FAE210FCF3DF00C42DBB /* Wm5Renderers.h in Headers */,
-				3CC4FB3D10FCF40200C42DBB /* Wm5GlExtensions.h in Headers */,
+				3CC4FB3D10FCF40200C42DBB /* Wm5GlExtensionsStandard.h in Headers */,
 				3CC4FB3F10FCF40200C42DBB /* Wm5GlPlugin.h in Headers */,
 				3CC4FB4010FCF40200C42DBB /* Wm5GlUtility.h in Headers */,
 				3CC4FB4110FCF40200C42DBB /* Wm5OpenGLBitmapFont.h in Headers */,
 				3CC4FB4310FCF40200C42DBB /* Wm5OpenGLIndexBuffer.h in Headers */,
 				3CC4FB4510FCF40200C42DBB /* Wm5OpenGLMapping.h in Headers */,
+				F6184E01183E5993003BF970 /* Wm5CocoaRendererExt.h in Headers */,
 				3CC4FB4710FCF40200C42DBB /* Wm5OpenGLPixelShader.h in Headers */,
 				3CC4FB4A10FCF40200C42DBB /* Wm5OpenGLRendererData.h in Headers */,
 				3CC4FB4B10FCF40200C42DBB /* Wm5OpenGLRendererLIB.h in Headers */,
@@ -2980,6 +3039,7 @@
 				3CC4FC1B10FCF42400C42DBB /* Wm5Light.h in Headers */,
 				3CC4FC1D10FCF42400C42DBB /* Wm5LightNode.h in Headers */,
 				3CC4FC1F10FCF42400C42DBB /* Wm5Material.h in Headers */,
+				F6184E09183E5993003BF970 /* Wm5CocoaRendererInput.h in Headers */,
 				3CC4FC2110FCF42400C42DBB /* Wm5Node.h in Headers */,
 				3CC4FC2310FCF42400C42DBB /* Wm5Particles.h in Headers */,
 				3CC4FC2510FCF42400C42DBB /* Wm5Picker.h in Headers */,
@@ -3314,6 +3374,7 @@
 				3C64CE2F1256BD0700F4B0B0 /* Wm5SurfacePatch.cpp in Sources */,
 				3C64CE301256BD0700F4B0B0 /* Wm5BlendTransformController.cpp in Sources */,
 				3C64CE311256BD0700F4B0B0 /* Wm5ControlledObject.cpp in Sources */,
+				F6184E06183E5993003BF970 /* Wm5CocoaRendererExt.mm in Sources */,
 				3C64CE321256BD0700F4B0B0 /* Wm5IKController.cpp in Sources */,
 				3C64CE331256BD0700F4B0B0 /* Wm5OpenGLTexture2D.cpp in Sources */,
 				3C64CE341256BD0700F4B0B0 /* Wm5PlanarShadowEffect.cpp in Sources */,
@@ -3343,6 +3404,7 @@
 				3C64CE4C1256BD0700F4B0B0 /* Wm5FloatArray.cpp in Sources */,
 				3C64CE4D1256BD0700F4B0B0 /* Wm5Terrain.cpp in Sources */,
 				3C64CE4E1256BD0700F4B0B0 /* Wm5CullState.cpp in Sources */,
+				F6184DFA183E5993003BF970 /* Wm5CocoaRenderer.cpp in Sources */,
 				3C64CE4F1256BD0700F4B0B0 /* Wm5LightSpecularConstant.cpp in Sources */,
 				3C64CE501256BD0700F4B0B0 /* Wm5LightDiffuseConstant.cpp in Sources */,
 				3C64CE511256BD0700F4B0B0 /* Wm5OpenGLShader.cpp in Sources */,
@@ -3378,7 +3440,6 @@
 				3C64CE6F1256BD0700F4B0B0 /* Wm5Texture2AddEffect.cpp in Sources */,
 				3C64CE701256BD0700F4B0B0 /* Wm5Spatial.cpp in Sources */,
 				3C64CE711256BD0700F4B0B0 /* Wm5TriMesh.cpp in Sources */,
-				3CAC8D5213DBAC6000C8E9E7 /* Wm5GlutRenderer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3481,6 +3542,7 @@
 				3C64D0A71256C79B00F4B0B0 /* Wm5SurfacePatch.cpp in Sources */,
 				3C64D0A81256C79B00F4B0B0 /* Wm5BlendTransformController.cpp in Sources */,
 				3C64D0A91256C79B00F4B0B0 /* Wm5ControlledObject.cpp in Sources */,
+				F6184E07183E5993003BF970 /* Wm5CocoaRendererExt.mm in Sources */,
 				3C64D0AA1256C79B00F4B0B0 /* Wm5IKController.cpp in Sources */,
 				3C64D0AB1256C79B00F4B0B0 /* Wm5OpenGLTexture2D.cpp in Sources */,
 				3C64D0AC1256C79B00F4B0B0 /* Wm5PlanarShadowEffect.cpp in Sources */,
@@ -3510,6 +3572,7 @@
 				3C64D0C41256C79B00F4B0B0 /* Wm5FloatArray.cpp in Sources */,
 				3C64D0C51256C79B00F4B0B0 /* Wm5Terrain.cpp in Sources */,
 				3C64D0C61256C79B00F4B0B0 /* Wm5CullState.cpp in Sources */,
+				F6184DFB183E5993003BF970 /* Wm5CocoaRenderer.cpp in Sources */,
 				3C64D0C71256C79B00F4B0B0 /* Wm5LightSpecularConstant.cpp in Sources */,
 				3C64D0C81256C79B00F4B0B0 /* Wm5LightDiffuseConstant.cpp in Sources */,
 				3C64D0C91256C79B00F4B0B0 /* Wm5OpenGLShader.cpp in Sources */,
@@ -3545,7 +3608,6 @@
 				3C64D0E71256C79B00F4B0B0 /* Wm5Texture2AddEffect.cpp in Sources */,
 				3C64D0E81256C79B00F4B0B0 /* Wm5Spatial.cpp in Sources */,
 				3C64D0E91256C79B00F4B0B0 /* Wm5TriMesh.cpp in Sources */,
-				3CAC8D5313DBAC6000C8E9E7 /* Wm5GlutRenderer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3648,6 +3710,7 @@
 				3CC4FBF110FCF42400C42DBB /* Wm5LightNode.cpp in Sources */,
 				3CC4FBF310FCF42400C42DBB /* Wm5Material.cpp in Sources */,
 				3CC4FBF510FCF42400C42DBB /* Wm5Node.cpp in Sources */,
+				F6184E04183E5993003BF970 /* Wm5CocoaRendererExt.mm in Sources */,
 				3CC4FBF710FCF42400C42DBB /* Wm5Particles.cpp in Sources */,
 				3CC4FBF910FCF42400C42DBB /* Wm5Picker.cpp in Sources */,
 				3CC4FBFC10FCF42400C42DBB /* Wm5Polypoint.cpp in Sources */,
@@ -3677,6 +3740,7 @@
 				3CC4FC8E10FCF43400C42DBB /* Wm5LightWorldPositionConstant.cpp in Sources */,
 				3CC4FC9010FCF43400C42DBB /* Wm5MaterialAmbientConstant.cpp in Sources */,
 				3CC4FC9210FCF43400C42DBB /* Wm5MaterialDiffuseConstant.cpp in Sources */,
+				F6184DF8183E5993003BF970 /* Wm5CocoaRenderer.cpp in Sources */,
 				3CC4FC9410FCF43400C42DBB /* Wm5MaterialEmissiveConstant.cpp in Sources */,
 				3CC4FC9610FCF43400C42DBB /* Wm5MaterialSpecularConstant.cpp in Sources */,
 				3CC4FC9810FCF43400C42DBB /* Wm5PMatrixConstant.cpp in Sources */,
@@ -3712,7 +3776,6 @@
 				3CC4FD7410FCF47000C42DBB /* Wm5GraphicsPCH.cpp in Sources */,
 				3C30037811120595004EF06C /* Wm5BlendTransformController.cpp in Sources */,
 				3C30037A11120595004EF06C /* Wm5TransformController.cpp in Sources */,
-				3CAC8D5013DBAC6000C8E9E7 /* Wm5GlutRenderer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3815,6 +3878,7 @@
 				3CC4FC1C10FCF42400C42DBB /* Wm5LightNode.cpp in Sources */,
 				3CC4FC1E10FCF42400C42DBB /* Wm5Material.cpp in Sources */,
 				3CC4FC2010FCF42400C42DBB /* Wm5Node.cpp in Sources */,
+				F6184E05183E5993003BF970 /* Wm5CocoaRendererExt.mm in Sources */,
 				3CC4FC2210FCF42400C42DBB /* Wm5Particles.cpp in Sources */,
 				3CC4FC2410FCF42400C42DBB /* Wm5Picker.cpp in Sources */,
 				3CC4FC2710FCF42400C42DBB /* Wm5Polypoint.cpp in Sources */,
@@ -3844,6 +3908,7 @@
 				3CC4FCC210FCF43400C42DBB /* Wm5LightWorldPositionConstant.cpp in Sources */,
 				3CC4FCC410FCF43400C42DBB /* Wm5MaterialAmbientConstant.cpp in Sources */,
 				3CC4FCC610FCF43400C42DBB /* Wm5MaterialDiffuseConstant.cpp in Sources */,
+				F6184DF9183E5993003BF970 /* Wm5CocoaRenderer.cpp in Sources */,
 				3CC4FCC810FCF43400C42DBB /* Wm5MaterialEmissiveConstant.cpp in Sources */,
 				3CC4FCCA10FCF43400C42DBB /* Wm5MaterialSpecularConstant.cpp in Sources */,
 				3CC4FCCC10FCF43400C42DBB /* Wm5PMatrixConstant.cpp in Sources */,
@@ -3879,7 +3944,6 @@
 				3CC4FD7810FCF47000C42DBB /* Wm5GraphicsPCH.cpp in Sources */,
 				3C30037C11120595004EF06C /* Wm5BlendTransformController.cpp in Sources */,
 				3C30037E11120595004EF06C /* Wm5TransformController.cpp in Sources */,
-				3CAC8D5113DBAC6000C8E9E7 /* Wm5GlutRenderer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3893,7 +3957,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = Wm5GraphicsPCH.h;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					_DEBUG,

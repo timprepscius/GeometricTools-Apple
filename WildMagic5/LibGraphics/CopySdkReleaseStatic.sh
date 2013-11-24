@@ -17,6 +17,14 @@ foreach dir (${DIRS})
     endif
 end
 
+cd Renderers/CocoaRenderer
+set OCURDIR = `pwd`
+set OHEADERS = `ls *.h`
+foreach oheader (${OHEADERS})
+    cp -fp "${OCURDIR}"/$oheader ../../../SDK/Include
+end
+cd ../..
+
 cd Renderers/OpenGLRenderer
 set OCURDIR = `pwd`
 set OHEADERS = `ls *.h`
