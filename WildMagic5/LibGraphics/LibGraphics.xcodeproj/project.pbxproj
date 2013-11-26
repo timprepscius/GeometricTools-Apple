@@ -1340,6 +1340,7 @@
 		F6184E0D183E5B2A003BF970 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6184E0C183E5B2A003BF970 /* GLUT.framework */; };
 		F6184E0F183E5B2F003BF970 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6184E0E183E5B2F003BF970 /* OpenGL.framework */; };
 		F6184E11183E5B38003BF970 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6184E10183E5B38003BF970 /* GLKit.framework */; };
+		F619E91F1844463600018988 /* Wm5GlExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F619E91E1844463600018988 /* Wm5GlExtensions.h */; };
 		F6FEAAA31842AA8300D62DF3 /* Wm5GlExtensionsCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FEAAA21842AA8300D62DF3 /* Wm5GlExtensionsCocoa.h */; };
 /* End PBXBuildFile section */
 
@@ -1754,7 +1755,7 @@
 		F6184E0C183E5B2A003BF970 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		F6184E0E183E5B2F003BF970 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		F6184E10183E5B38003BF970 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		F6184E15183E610C003BF970 /* Wm5GlExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wm5GlExtensions.h; sourceTree = "<group>"; };
+		F619E91E1844463600018988 /* Wm5GlExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wm5GlExtensions.h; path = Renderers/OpenGLRenderer/Wm5GlExtensions.h; sourceTree = "<group>"; };
 		F6FEAAA21842AA8300D62DF3 /* Wm5GlExtensionsCocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wm5GlExtensionsCocoa.h; path = Renderers/CocoaRenderer/Wm5GlExtensionsCocoa.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -2106,8 +2107,8 @@
 		3CC4F93410FCF30A00C42DBB /* OpenGLRenderer */ = {
 			isa = PBXGroup;
 			children = (
+				F619E91E1844463600018988 /* Wm5GlExtensions.h */,
 				3CC4FAF610FCF40200C42DBB /* Wm5GlExtensions.cpp */,
-				F6184E15183E610C003BF970 /* Wm5GlExtensions.h */,
 				3CC4FAF710FCF40200C42DBB /* Wm5GlExtensionsStandard.h */,
 				3CC4FAF810FCF40200C42DBB /* Wm5GlPlugin.cpp */,
 				3CC4FAF910FCF40200C42DBB /* Wm5GlPlugin.h */,
@@ -2886,6 +2887,7 @@
 				3CC4FC7D10FCF43400C42DBB /* Wm5CameraWorldPositionConstant.h in Headers */,
 				3CC4FC7F10FCF43400C42DBB /* Wm5LightAmbientConstant.h in Headers */,
 				3CC4FC8110FCF43400C42DBB /* Wm5LightAttenuationConstant.h in Headers */,
+				F619E91F1844463600018988 /* Wm5GlExtensions.h in Headers */,
 				3CC4FC8310FCF43400C42DBB /* Wm5LightDiffuseConstant.h in Headers */,
 				3CC4FC8510FCF43400C42DBB /* Wm5LightModelDVectorConstant.h in Headers */,
 				3CC4FC8710FCF43400C42DBB /* Wm5LightModelPositionConstant.h in Headers */,

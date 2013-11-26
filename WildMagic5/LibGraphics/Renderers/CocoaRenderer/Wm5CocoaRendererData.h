@@ -14,7 +14,7 @@
 namespace Wm5
 {
     
-    class CocoaRendererData : public RendererData
+    class Wm5CocoaRendererData : public RendererData
     {
     };
     

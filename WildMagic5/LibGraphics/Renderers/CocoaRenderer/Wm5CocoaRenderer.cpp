@@ -21,7 +21,7 @@ Renderer::Renderer (RendererInput& input, int width, int height,
     Initialize(width, height, colorFormat, depthStencilFormat,
                numMultisamples);
     
-    CocoaRendererData* data = new0 CocoaRendererData();
+    Wm5CocoaRendererData* data = new0 Wm5CocoaRendererData();
     mData = data;
     
     // Load the function pointers for the OpenGL extensions.  This only
@@ -30,6 +30,7 @@ Renderer::Renderer (RendererInput& input, int width, int height,
     // valid string; for example, "OpenGLDriverInfo.txt".
     //const char* infoFile = "OpenGLDriverInfo.txt";
     const char* infoFile = 0;
+	(void)infoFile;
 
 //    GTInitGL(infoFile);
     

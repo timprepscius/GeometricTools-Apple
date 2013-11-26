@@ -61,6 +61,13 @@ cd LibGraphics
 xcodebuild -project LibGraphics.xcodeproj -configuration Default -target "${libTarget}" $opr
 cd ..
 
+exit 0;
+
+####
+####
+####
+####
+
 cd LibApplications/GlutApplication
 xcodebuild -project GlutApplication.xcodeproj -configuration Default -target "${libTarget}" $opr
 cd ../..
